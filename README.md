@@ -39,5 +39,25 @@
         ln -s "$(pwd)/vscode/keybindings.json" ~/Library/Application\ Support/Code/User/keybindings.json && \
         ln -s "$(pwd)/vscode/settings.json" ~/Library/Application\ Support/Code/User/settings.json && \
         ln -s "$(pwd)/vscode/tasks.json" ~/Library/Application\ Support/Code/User/tasks.json)
-        ``````
+        ```
 
+### Cursor
+
+- Install [Cursor](https://cursor.com/)
+- Install https://github.com/TommyX12/tommyx-vimrc
+- Install the following extensions:
+    - The same set of extensions as Visual Studio Code
+- Quit Cursor
+- Run the following command to setup configuration files:
+    - macOS:
+        ```bash
+        (cd <path-to-repo> && \
+        rm -rf ~/Library/Application\ Support/Cursor/User/snippets && \
+        rm -f ~/Library/Application\ Support/Cursor/User/keybindings.json && \
+        rm -f ~/Library/Application\ Support/Cursor/User/settings.json && \
+        rm -f ~/Library/Application\ Support/Cursor/User/tasks.json && \
+        ln -s "$(pwd)/vscode/snippets" ~/Library/Application\ Support/Cursor/User/snippets && \
+        ln -s "$(pwd)/vscode/keybindings.json" ~/Library/Application\ Support/Cursor/User/keybindings.json && \
+        ln -s "$(pwd)/vscode/settings.json" ~/Library/Application\ Support/Cursor/User/settings.json && \
+        ln -s "$(pwd)/vscode/tasks.json" ~/Library/Application\ Support/Cursor/User/tasks.json)
+        ```
