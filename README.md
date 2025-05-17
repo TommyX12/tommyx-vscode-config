@@ -46,7 +46,8 @@
 - Install [Cursor](https://cursor.com/)
 - Install https://github.com/TommyX12/tommyx-vimrc
 - Install the following extensions:
-    - The same set of extensions as Visual Studio Code
+    - The same set of extensions as Visual Studio Code, except for:
+        - GitHub copilot related extensions
 - Quit Cursor
 - Run the following command to setup configuration files:
     - macOS:
