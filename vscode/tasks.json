@@ -1,0 +1,81 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "git-fix",
+            "type": "shell",
+            "command": "git fix",
+            "problemMatcher": [],
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": true,
+                "panel": "shared",
+                "showReuseMessage": true,
+                "clear": false
+            }
+        },
+        {
+            "label": "Bazel build current file (release)",
+            "type": "shell",
+            "command": "bazel build -c opt ${relativeFileDirname}/${fileBasenameNoExtension}",
+            "problemMatcher": [],
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "new",
+                "showReuseMessage": true,
+                "clear": false,
+                "close": false,
+            }
+        },
+        {
+            "label": "Bazel test current file (release)",
+            "type": "shell",
+            "command": "bazel test -c opt ${relativeFileDirname}/${fileBasenameNoExtension}",
+            "problemMatcher": [],
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "new",
+                "showReuseMessage": true,
+                "clear": false,
+                "close": false,
+            }
+        },
+        {
+            "label": "Bazel run current file (release)",
+            "type": "shell",
+            "command": "bazel build -c opt ${relativeFileDirname}/${fileBasenameNoExtension} && bazel-bin/${relativeFileDirname}/${fileBasenameNoExtension}",
+            "problemMatcher": [],
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "new",
+                "showReuseMessage": true,
+                "clear": false,
+                "close": false,
+            }
+        },
+        {
+            "label": "Run ../s/temp.sh",
+            "type": "shell",
+            "command": "../s/temp.sh",
+            "problemMatcher": [],
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "new",
+                "showReuseMessage": true,
+                "clear": false,
+                "close": false,
+            }
+        },
+    ]
+}
