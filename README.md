@@ -44,9 +44,10 @@
 ### Cursor
 
 - Install [Cursor](https://cursor.com/)
+- Setup things like privacy settings.
 - Install https://github.com/TommyX12/tommyx-vimrc
 - Install the following extensions:
-    - The same set of extensions as Visual Studio Code, except for:
+    - The same set of extensions as Visual Studio Code (or just let Cursor import from VSCode), except for:
         - GitHub copilot related extensions
 - Quit Cursor
 - Run the following command to setup configuration files:

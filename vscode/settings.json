@@ -107,7 +107,7 @@
             "after": [],
             "commands": [
                 {
-                    "command": "workbench.panel.chat.view.copilot.focus"
+                    "command": "composerMode.agent"
                 }
             ]
         },
@@ -120,7 +120,7 @@
             "after": [],
             "commands": [
                 {
-                    "command": "inlineChat.start"
+                    "command": "aipopup.action.modal.generate"
                 }
             ]
         }
@@ -737,7 +737,7 @@
             "after": [],
             "commands": [
                 {
-                    "command": "workbench.panel.chat.view.copilot.focus"
+                    "command": "composerMode.agent"
                 }
             ]
         },
@@ -750,20 +750,7 @@
             "after": [],
             "commands": [
                 {
-                    "command": "inlineChat.start"
-                }
-            ]
-        },
-        {
-            "before": [
-                "space",
-                "c",
-                "c"
-            ],
-            "after": [],
-            "commands": [
-                {
-                    "command": "workbench.panel.chatSidebar.copilot"
+                    "command": "aipopup.action.modal.generate"
                 }
             ]
         },

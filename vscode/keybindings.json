@@ -80,7 +80,7 @@
         "when": "inSearchEditor || searchViewletFocus"
     },
     {
-        "key": "cmd+l",
+        "key": "cmd+;",
         "command": "workbench.action.terminal.toggleTerminal",
         "when": "terminal.active"
     },
@@ -192,7 +192,7 @@
         "when": "inSearchEditor || searchViewletFocus"
     },
     {
-        "key": "alt+l",
+        "key": "alt+;",
         "command": "workbench.action.terminal.toggleTerminal",
         "when": "terminal.active"
     },
