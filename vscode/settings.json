@@ -1161,5 +1161,7 @@
     "github.copilot.chat.codesearch.enabled": true,
     "github.copilot.chat.agent.thinkingTool": true,
     "github.copilot.chat.editor.temporalContext.enabled": true,
-    "cursor.cpp.disabledLanguages": []
+    "cursor.cpp.disabledLanguages": [
+        "org"
+    ]
 }
