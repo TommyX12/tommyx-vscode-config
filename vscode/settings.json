@@ -779,6 +779,33 @@
                     "command": "editor.action.refactor"
                 }
             ]
+        },
+        {
+            "before": [
+                "space",
+                "y",
+                "y"
+            ],
+            "after": [
+                "g",
+                "gg",
+                "V",
+                "G",
+                "y"
+            ]
+        },
+        {
+            "before": [
+                "space",
+                "y",
+                "f"
+            ],
+            "after": [],
+            "commands": [
+                {
+                    "command": "copyRelativeFilePath"
+                }
+            ]
         }
     ],
     "editor.smoothScrolling": true,
