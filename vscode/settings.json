@@ -843,27 +843,28 @@
         "#55aaaa",
     ],
     "workbench.colorCustomizations": {
-        // border: #00000032
-        // editor background: #f4f4f4, old: #f4f4f4
-        // secondary background: #e1e2e4, old: #dfe2e6
+        // border: #5ab0ff, old: #00000032
+        // editor background: #ffffff, old: #f4f4f4
+        // secondary background: #ffffff, old: #f4f5f7
         "editor.background": "#ffffff", // editor background
         "tab.activeBorder": "#0092d5",
         "tab.activeForeground": "#383a42",
-        "tab.activeBackground": "#f4f5f7", // secondary background
-        "breadcrumb.background": "#f4f5f7", // secondary background
+        "tab.activeBackground": "#ffffff", // secondary background
+        "breadcrumb.background": "#ffffff", // secondary background
         "panel.background": "#ffffff", // editor background
         "terminal.background": "#ffffff", // editor background
         // "tab.inactiveBackground": "#e2e2e2",
-        "tab.inactiveBackground": "#f4f5f7", // secondary background
+        "tab.inactiveBackground": "#ffffff", // secondary background
         // "tab.inactiveForeground": "#666666",
         "tab.inactiveForeground": "#999999",
         "tab.unfocusedInactiveForeground": "#999999",
-        "editorGroupHeader.tabsBackground": "#f4f5f7", // secondary background
-        "editorGroupHeader.noTabsBackground": "#f4f5f7", // secondary background
+        "editorGroupHeader.tabsBackground": "#ffffff", // secondary background
+        "editorGroupHeader.noTabsBackground": "#ffffff", // secondary background
         "editor.lineHighlightBackground": "#1073cf09",
-        "editorGroup.border": "#00000032", // border
+        "editorGroup.border": "#5ab0ff", // border
         // "tab.border": "#d1d1d1",
         "tab.border": "#ffffff00",
+        "panel.border": "#5ab0ff", // border
         "editor.lineHighlightBorder": "#9fced11f",
         "separators.classes.borderColor": "#aa00aa55",
         "separators.constructors.borderColor": "#0b00aa55",
@@ -874,15 +875,15 @@
         "separators.namespaces.borderColor": "#aa7d0055",
         "separators.structs.borderColor": "#7a00aa55",
         // "sideBar.background": "#eeeeee",
-        "sideBar.background": "#f4f5f7", // secondary background
+        "sideBar.background": "#ffffff", // secondary background
         "sideBar.foreground": "#383a42",
         "sideBarTitle.foreground": "#383a42",
         // "sideBarSectionHeader.background": "#e0e0e0",
         "sideBarSectionHeader.background": "#ffffff00",
         "sideBarSectionHeader.foreground": "#383a42",
-        "sideBarSectionHeader.border": "#00000032",
+        "sideBarSectionHeader.border": "#5ab0ff",
         "input.background": "#ffffff44",
-        "input.border": "#00000032",
+        "input.border": "#5ab0ff",
         "list.focusBackground": "#bec4d6",
         "list.hoverBackground": "#d1d4dc",
         "list.inactiveSelectionBackground": "#cdd0d7",
@@ -892,26 +893,26 @@
         "editorSuggestWidget.highlightForeground": "#006ecf",
         "editorSuggestWidget.focusHighlightForeground": "#006ecf",
         // "activityBar.background": "#dddddd",
-        "activityBar.background": "#f4f5f7", // secondary background
+        "activityBar.background": "#ffffff", // secondary background
         "activityBar.foreground": "#383a42",
         "activityBar.inactiveForeground": "#a4a7ad",
-        "titleBar.activeBackground": "#f4f5f7", // secondary background
-        "titleBar.border": "#00000032", // border
+        "titleBar.activeBackground": "#ffffff", // secondary background
+        "titleBar.border": "#5ab0ff", // border
         "activityBar.activeBorder": "#0092d5",
         "activityBarBadge.background": "#0092d5",
         "activityBarBadge.foreground": "#ffffff",
-        "statusBar.background": "#f4f5f7", // secondary background
+        "statusBar.background": "#ffffff", // secondary background
         "statusBar.foreground": "#222222",
-        "statusBar.noFolderBackground": "#f4f5f7", // secondary background
-        "statusBar.debuggingBackground": "#f4f5f7", // secondary background
+        "statusBar.noFolderBackground": "#ffffff", // secondary background
+        "statusBar.debuggingBackground": "#ffffff", // secondary background
         "editorLineNumber.foreground": "#b5bdcf",
         "editorLineNumber.activeForeground": "#b5bdcf",
         "scrollbarSlider.activeBackground": "#0070cc8b",
         "scrollbarSlider.hoverBackground": "#0058a144",
         "scrollbarSlider.background": "#00000020",
-        "sideBar.border": "#00000032", // border
-        "activityBar.border": "#00000032", // border
-        "statusBar.border": "#00000032", // border
+        "sideBar.border": "#5ab0ff", // border
+        "activityBar.border": "#5ab0ff", // border
+        "statusBar.border": "#5ab0ff", // border
         "editor.findMatchHighlightBackground": "#22992244",
         "minimap.foregroundOpacity": "#00000080",
         "minimap.selectionOccurrenceHighlight": "#888888",
