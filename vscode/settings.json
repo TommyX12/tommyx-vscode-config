@@ -843,7 +843,7 @@
         "#55aaaa",
     ],
     "workbench.colorCustomizations": {
-        // border: #44aaff, old: #00000032
+        // border: #00aaff, old: #00000032
         // editor background: #ffffff, old: #f4f4f4
         // secondary background: #ffffff, old: #f4f5f7
         "editor.background": "#ffffff", // editor background
@@ -861,10 +861,10 @@
         "editorGroupHeader.tabsBackground": "#ffffff", // secondary background
         "editorGroupHeader.noTabsBackground": "#ffffff", // secondary background
         "editor.lineHighlightBackground": "#1073cf09",
-        "editorGroup.border": "#44aaff", // border
+        "editorGroup.border": "#00aaff", // border
         // "tab.border": "#d1d1d1",
         "tab.border": "#ffffff00",
-        "panel.border": "#44aaff", // border
+        "panel.border": "#00aaff", // border
         "editor.lineHighlightBorder": "#9fced11f",
         "separators.classes.borderColor": "#aa00aa55",
         "separators.constructors.borderColor": "#0b00aa55",
@@ -881,9 +881,9 @@
         // "sideBarSectionHeader.background": "#e0e0e0",
         "sideBarSectionHeader.background": "#ffffff00",
         "sideBarSectionHeader.foreground": "#383a42",
-        "sideBarSectionHeader.border": "#44aaff",
+        "sideBarSectionHeader.border": "#00aaff",
         "input.background": "#ffffff44",
-        "input.border": "#44aaff",
+        "input.border": "#00aaff",
         "list.focusBackground": "#bec4d6",
         "list.hoverBackground": "#d1d4dc",
         "list.inactiveSelectionBackground": "#cdd0d7",
@@ -897,7 +897,7 @@
         "activityBar.foreground": "#383a42",
         "activityBar.inactiveForeground": "#a4a7ad",
         "titleBar.activeBackground": "#ffffff", // secondary background
-        "titleBar.border": "#44aaff", // border
+        "titleBar.border": "#00aaff", // border
         "activityBar.activeBorder": "#0092d5",
         "activityBarBadge.background": "#0092d5",
         "activityBarBadge.foreground": "#ffffff",
@@ -910,9 +910,9 @@
         "scrollbarSlider.activeBackground": "#0070cc8b",
         "scrollbarSlider.hoverBackground": "#0058a144",
         "scrollbarSlider.background": "#00000020",
-        "sideBar.border": "#44aaff", // border
-        "activityBar.border": "#44aaff", // border
-        "statusBar.border": "#44aaff", // border
+        "sideBar.border": "#00aaff", // border
+        "activityBar.border": "#00aaff", // border
+        "statusBar.border": "#00aaff", // border
         "editor.findMatchHighlightBackground": "#22992244",
         "minimap.foregroundOpacity": "#00000080",
         "minimap.selectionOccurrenceHighlight": "#888888",
