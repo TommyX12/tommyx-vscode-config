@@ -847,8 +847,8 @@
         // editor background: #ffffff, old: #f4f4f4
         // secondary background: #ffffff, old: #f4f5f7
         "editor.background": "#ffffff", // editor background
-        "tab.activeBorder": "#0092d5",
-        "tab.activeForeground": "#383a42",
+        // "tab.activeBorder": "#0092d5",
+        "tab.activeForeground": "#000000",
         "tab.activeBackground": "#ffffff", // secondary background
         "breadcrumb.background": "#ffffff", // secondary background
         "panel.background": "#ffffff", // editor background
@@ -862,7 +862,13 @@
         "editorGroupHeader.noTabsBackground": "#ffffff", // secondary background
         "editor.lineHighlightBackground": "#1073cf09",
         "editorGroup.border": "#00aaff", // border
+        // "editorGroupHeader.border": "#00aaff", // border
+        // "editorGroupHeader.tabsBorder": "#00aaff", // border
         // "tab.border": "#d1d1d1",
+        "tab.activeModifiedBorder": "#00000000",
+        "tab.inactiveModifiedBorder": "#00000000",
+        "tab.unfocusedActiveModifiedBorder": "#00000000",
+        "tab.unfocusedInactiveModifiedBorder": "#00000000",
         "tab.border": "#ffffff00",
         "panel.border": "#00aaff", // border
         "editor.lineHighlightBorder": "#9fced11f",
@@ -1205,5 +1211,6 @@
     "github.copilot.chat.editor.temporalContext.enabled": true,
     "cursor.cpp.disabledLanguages": [
         "org"
-    ]
+    ],
+    "editor.accessibilitySupport": "off"
 }
