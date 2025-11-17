@@ -847,6 +847,8 @@
         // editor background: #ffffff, old: #f4f4f4
         // secondary background: #ffffff, old: #f4f5f7
         "editor.background": "#ffffff", // editor background
+        "editorCursor.foreground": "#0086e0",
+        "editorCursor.background": "#ffffff",
         // "tab.activeBorder": "#0092d5",
         "tab.activeForeground": "#000000",
         "tab.activeBackground": "#ffffff", // secondary background
